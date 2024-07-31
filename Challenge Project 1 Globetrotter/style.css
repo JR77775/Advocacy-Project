@@ -1,0 +1,101 @@
+.nav {
+  background-color: rgb(165, 41, 41);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  color: white;
+}
+
+.navbutton {
+  background-color: transparent;
+  border-color: transparent;
+  border: none;
+  height: 50px;
+  font-size: 20px;
+}
+
+.navbar {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.navbutton:hover {
+  background-color: rgb(43, 13, 13);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(imgs/city.png);
+  height: 250px;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 30px;
+}
+
+.photos {
+  height: 250px;
+  padding: 10px;
+}
+
+.fphotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  max-height: 250px;
+}
+
+.food {
+  max-height: 250px;
+  padding: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+}
+
+.collection {
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.mainm {
+  display: flex;
+  justify-content: center;
+}
+
+.Gphotos {
+  background-color: transparent;
+  border: none;
+}
+
+.Aphotos {
+  padding: 30px;
+  padding-bottom: 0px;
+  background-color: transparent;
+  border: transparent;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.fpage {
+  margin: 20px;
+}
